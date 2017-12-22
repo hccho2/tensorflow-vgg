@@ -26,3 +26,5 @@ with tf.device('/cpu:0'):
         print(prob)
         utils.print_prob(prob[0], './synset.txt')
         utils.print_prob(prob[1], './synset.txt')
+
+        
